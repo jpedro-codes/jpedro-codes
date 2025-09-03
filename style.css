@@ -1,0 +1,111 @@
+*{
+   margin: 0;
+   padding: 5px;
+   box-sizing: border-box;
+   
+}
+
+body{
+    background: url(./assets/bg-mobile.jpg) no-repeat top center/cover;
+    
+}
+
+body *{
+    font-family: sans-serif;
+
+}
+
+#container{
+    width: 360px;
+    margin: auto;
+}
+
+#profile img{
+    width: 200px;
+    display: inline;
+   border-radius: 50%;
+}
+
+#profile{
+   text-align: center;
+}
+
+#fotos{
+    display: block;
+    font-weight: bolder;
+}
+
+#fotos{
+    text-align: center;
+    color: rgb(236, 231, 240);
+    font-size: 16px;
+    line-height: 40px;
+
+}
+
+#profile2 img{
+    display: inline;
+    width: 30px;
+
+}
+
+#profile2{
+    text-align:center
+   
+}
+
+.color{
+    color: rgb(240, 201, 173);
+    line-height: 20px;
+    margin: 5px auto 0px auto;
+    
+}
+
+#projeto2{
+    font-display: block;
+    display: flex ;
+}
+
+.pp{
+    font-weight: bolder;
+    color: rgb(179, 169, 236)
+    
+}
+
+
+ul{
+    list-style: none;
+    gap: 16px;
+    padding: 22px 16px;
+    
+}
+
+ul li a {
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+
+    text-decoration: none;
+    font-weight: bolder;
+    transition: backgound 0.2s;
+    padding: 9px 10px;
+    background: rgba(255,255, 255, 0.1);
+    border: 2px solid rgba(246, 246, 248, 0.164)
+    
+}
+
+ul li a:hover{
+     background: rgba(255,255,255,0.5);
+     border: 1.5px solid white;
+}
+
+.p1{
+    font-weight: bolder;
+    color: white
+}
+
+
